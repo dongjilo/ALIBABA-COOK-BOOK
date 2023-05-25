@@ -29,6 +29,12 @@ background-color: orangered !important;
     margin: 100%;
 }
 
+@media only screen and (min-device-width: 500px) {
+    [class*="low-"]{
+        margin: 25%;
+    }
+}
+
 .feature{
     background-image: url("../images/Background.jpg");
     background-repeat: no-repeat;
@@ -41,8 +47,32 @@ background-color: orangered !important;
     }
 }
 
-@media only screen and (min-device-width: 500px) {
-    [class*="low-"]{
-        margin: 25%;
+.left-img{
+    height: 20%;
+    padding: 10px;
+}
+
+@media screen and (width >= 768px) {
+    .left-img{
+        margin-left: 40%;
+        max-width: 100%;
+        height: 320px;
+    }
+}
+
+@media screen and (width <= 767) {
+    .left-img{
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.intro{
+    margin-top: 80px;
+}
+
+@media screen and (width >= 768px) {
+    .intro{
+        margin-top: 80px;
     }
 }
