@@ -29,14 +29,14 @@ background-color: orangered !important;
     margin: 100%;
 }
 
-#feature{
+.feature{
     background-image: url("../images/Background.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
 }
 
 @media screen and (max-device-width: 700px) {
-    #feature{
+    .feature{
         background-size: auto auto;
     }
 }
