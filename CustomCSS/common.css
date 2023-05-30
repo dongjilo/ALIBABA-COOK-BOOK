@@ -29,6 +29,10 @@ background-color: orangered !important;
     margin: 100%;
 }
 
+.card {
+    padding: 20px;
+}
+
 @media only screen and (min-device-width: 500px) {
     [class*="low-"]{
         margin: 25%;
