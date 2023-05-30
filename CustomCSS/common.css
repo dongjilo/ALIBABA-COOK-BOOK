@@ -45,6 +45,12 @@ background-color: orangered !important;
     background-size: 100% auto;
 }
 
+.feature-log{
+    background-image: url("../images/Background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
 @media screen and (max-device-width: 700px) {
     .feature{
         background-size: auto auto;
