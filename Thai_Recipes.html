@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="CustomCSS/common.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <title>Chinese Recipies</title>
+    <title>Thai Recipies</title>
 </head>
 <body>
 
@@ -23,13 +23,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    <a class="nav-link" aria-current="page" href="./index.html">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="about.html">About Us</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Recipes
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -43,8 +43,8 @@
             </ul>
             <ul class="navbar-nav px-">
                 <div class="d-grid gap-2 d-md-block">
-                    <button class="btn btn-outline-success" type="button">Register</button>
-                    <button class="btn custom-outline-btn"  type="button">Login</button>
+                    <a href="reg.html"><button class="btn btn-outline-success" type="button">Register</button></a>
+                    <a href="login.html"><button class="btn custom-outline-btn"  type="button">Login</button></a>
                 </div>
             </ul>
         </div>
@@ -53,93 +53,81 @@
 
 <!--Page Content-->
 
-<section class="container-fluid feature">
+<section class="container-fluid ">
     <div class="row">
         <div class="col">
             <div class="container-md text-center low-1">
-                <h1 style="color: black">Ali<span style="color: orangered;">baba's</span> Cookbook</h1>
-                <span style="color: orangered">A magical world full of bursting flavours and seasonal magic</span>
+                <h1 style="color: black">Ali<span style="color: orangered;">Baba's</span> Thai Recipes</h1>
+                <span style="color: orangered">A collection of Thai recipes brought to you by Alibaba's Cookbook.</span>
             </div>
         </div>
     </div>
 </section>
 
-<!--Recipices-->
-<div class="container mt-5">
-    <div class="row my-5">
-        <div class="col-lg-6">
-            <h2>Recipes</h2>
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="card">
-                            <img src="./images/ThaiRecipes/thai-stir-fried-noodles-with-vegetables.jpg" alt="Recipe Image" class="card-img-top">
-                            <div class="card-body">
-                                <h5 class="card-title">Delicious Thai Stir Fried Noodles</h5>
-                                <p>⭐⭐⭐⭐⭐</p>
-                                <p class="card-text">Learn how to make the perfect Thai Stir Fried Noodles with this simple recipe.</p>
-                                <a href="#" class="btn custom-btn">View Recipe</a>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="carousel-item">
-                        <div class="card">
-                            <img src="./images/ThaiRecipes/tom-yum.jpg" alt="Recipe Image" class="card-img-top">
-                            <div class="card-body">
-                                <h5 class="card-title">The Famous Tom Yum</h5>
-                                <p>⭐⭐⭐⭐⭐</p>
-                                <p class="card-text">Learn how to make the perfect Tom Yum with this simple recipe.</p>
-                                <a href="#" class="btn custom-btn">View Recipe</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="card">
-                            <img src="./images/ThaiRecipes/Gaeng-keow-wan-gai-Green-Curry.jpg" alt="Recipe Image" class="card-img-top">
-                            <div class="card-body">
-                                <h5 class="card-title">The Delicious Gaeng Keow Wan Gai (Green Curry)</h5>
-                                <p>⭐⭐⭐⭐⭐</p>
-                                <p class="card-text">Learn how to make the perfect Gaeng Keow Wan Gai (Green Curry) with this simple recipe.</p>
-                                <a href="#" class="btn custom-btn">View Recipe</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="card">
-                            <img src="./images/ThaiRecipes/kaeng-lueang(YellowCurry).JPG" alt="Recipe Image" class="card-img-top">
-                            <div class="card-body">
-                                <h5 class="card-title">The Famous Kaeng Lueang (Yellow Curry)</h5>
-                                <p>⭐⭐⭐⭐⭐</p>
-                                <p class="card-text">Learn how to make the perfect Kaeng Lueang (Yellow Curry) with this simple recipe.</p>
-                                <a href="#" class="btn custom-btn">View Recipe</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="card">
-                            <img src="./images/ThaiRecipes/Gaeng-Daeng(redCurry).jpg" alt="Recipe Image" class="card-img-top">
-                            <div class="card-body">
-                                <h5 class="card-title">Delicious Gaeng Daeng (Red Curry)</h5>
-                                <p>⭐⭐⭐⭐⭐</p>
-                                <p class="card-text">Learn how to make the perfect Sweet and Sour Pork with this simple recipe.</p>
-                                <a href="#" class="btn custom-btn">View Recipe</a>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
+
+<!--final-->
+<div class="container-fluid">
+    <div class="row pb-3 ps-3">
+        <span class="fw-bold text-dark fs-2 pt-3">
+        Thai Recipes
+        </span>
+        <div class="col-md-4">
+            <div class="card m-1">
+                <img src="./images/ThaiRecipes/thai-stir-fried-noodles-with-vegetables.jpg" alt="Recipe Image" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Thai Stir Fried Noodles</h5>
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p class="card-text">Learn how to make the perfect Thai Stir Fried Noodles with this simple recipe.</p>
+                    <a href="#" class="btn custom-btn">View Recipe</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card m-1">
+                <img src="./images/ThaiRecipes/tom-yum.jpg" alt="Recipe Image" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Tom Yum</h5>
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p class="card-text">Learn how to make the perfect Tom Yum with this simple recipe.</p>
+                    <a href="#" class="btn custom-btn">View Recipe</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card m-1">
+                <img src="./images/ThaiRecipes/Gaeng-keow-wan-gai-Green-Curry.jpg" alt="Recipe Image" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Gaeng Keow Wan Gai (Green Curry)</h5>
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p class="card-text">Learn how to make the perfect Gaeng Keow Wan Gai (Green Curry) with this simple recipe.</p>
+                    <a href="#" class="btn custom-btn">View Recipe</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card m-1">
+                <img src="./images/ThaiRecipes/kaeng-lueang(YellowCurry).JPG" alt="Recipe Image" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Kaeng Lueang (Yellow Curry)</h5>
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p class="card-text">Learn how to make the perfect Kaeng Lueang (Yellow Curry) with this simple recipe.</p>
+                    <a href="#" class="btn custom-btn">View Recipe</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card m-1">
+                <img src="./images/ThaiRecipes/Gaeng-Daeng(redCurry).jpg" alt="Recipe Image" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Gaeng Daeng (Red Curry)</h5>
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p class="card-text">Learn how to make the perfect Sweet and Sour Pork with this simple recipe.</p>
+                    <a href="#" class="btn custom-btn">View Recipe</a>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
 </body>
 </html>
