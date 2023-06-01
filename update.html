@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="CustomCSS/common.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-  <title>Submit a Recipe</title>
+  <title>Edit Recipe</title>
 </head>
 <body>
 
@@ -54,7 +54,7 @@
 <div class="container">
   <div class="card m-5">
     <div class="card-body">
-      <h1 class="text-center mb-4">Submit a Recipe</h1>
+      <h1 class="text-center mb-4">Edit your recipe</h1>
       <form>
         <div class="mb-3">
           <label for="image" class="form-label">Image</label>
@@ -62,11 +62,24 @@
         </div>
         <div class="mb-3">
           <label for="recipeName" class="form-label">Recipe Name</label>
-          <input type="text" class="form-control" id="recipeName" required>
+          <input type="text" class="form-control" id="recipeName" value="Pinakbet" required>
         </div>
         <div class="mb-3">
           <label for="ingredients" class="form-label">Ingredients</label>
-          <textarea class="form-control" id="ingredients" rows="3" required></textarea>
+          <textarea class="form-control" id="ingredients" rows="3" required>
+1/2 cup sliced pork belly or shrimp (optional)
+1 cup squash, cut into cubes
+1 cup eggplant, sliced
+1 cup okra
+1 cup string beans, cut into 2-inch pieces
+1 cup bitter melon (ampalaya), sliced
+2 medium tomatoes, sliced
+1 medium onion, sliced
+4 cloves garlic, minced
+2 tablespoons shrimp paste (bagoong)
+1 cup water
+Salt and pepper to taste
+          </textarea>
         </div>
         <div class="mb-3">
           <label for="instructions" class="form-label">Instructions</label>
@@ -87,18 +100,18 @@
 
       <!-- Modal Header -->
       <div class="modal-header">
-        <h4 class="modal-title">Recipe Submitted!</h4>
+        <h4 class="modal-title">Recipe Updated</h4>
         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
       </div>
 
       <!-- Modal body -->
       <div class="modal-body">
-        Thank you for submitting your recipe!
+        Changes have been applied!
       </div>
 
       <!-- Modal footer -->
       <div class="modal-footer">
-        <button type="button" class="btn btn-outline-success" data-bs-dismiss="modal">Okay</button>
+        <a href="submittedrecipes.html"><button type="button" class="btn btn-outline-success" data-bs-dismiss="modal">Okay</button></a>
       </div>
     </div>
   </div>
