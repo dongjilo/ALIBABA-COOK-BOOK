@@ -67,12 +67,13 @@ background-color: orangered !important;
 }
 .left-img2{
      height: 30%;
-     padding: 10px;}
-
-.img45 {
-    width: 200px;
-    height: auto;
+     padding: 10px;
 }
+
+/*.img45 {*/
+/*    width: 200px;*/
+/*    height: auto;*/
+/*}*/
 
 
 @media screen and (width >= 768px) {
@@ -131,4 +132,16 @@ background-color: orangered !important;
 .cta-form{
     margin-top: 10px;
     margin-bottom: 5px;
+}
+
+.showcase-img{
+    width: 50%;
+    height: auto;
+}
+
+@media screen and (width >= 768px){
+    .showcase-img{
+        width: 50%;
+        height: auto;
+    }
 }
