@@ -124,7 +124,7 @@ background-color: orangered !important;
 }
 
 .orange-hover:hover{
-    transition: ease-out 300ms;
+    transition: background-color 0.2s ease-in-out;
     background-color: orangered;
 }
 .center {
