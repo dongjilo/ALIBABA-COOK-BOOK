@@ -124,3 +124,9 @@ background-color: orangered !important;
     transition: ease-out 300ms;
     background-color: orangered;
 }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
