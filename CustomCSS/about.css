@@ -1,0 +1,38 @@
+.about-card{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.title{
+    color: #0a53be;
+}
+
+.hover-orange:hover{
+    transition: ease-in-out 300ms;
+    box-shadow: 1px 3px 2px 2px rgba(0,0,0,.6);
+    background-color: orangered;
+}
+
+.orange-hover:hover{
+    transition: background-color 300ms ease-in-out;
+    background-color: orangered;
+}
+
+@media screen and (width >= 768px){
+    .about-card{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .hover-orange:hover{
+        transition: ease-out 300ms;
+        box-shadow: 1px 3px 2px 2px rgba(0,0,0,.6);
+        background-color: orangered;
+        transform: translateY(-30px);
+    }
+
+    .orange-hover:hover{
+        transition: background-color 300ms ease-in-out;
+        background-color: orangered;
+    }
+}

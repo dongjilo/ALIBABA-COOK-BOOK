@@ -116,20 +116,19 @@ background-color: orangered !important;
     display: table;
 }
 
-.hover-orange:hover{
-    transition: ease-out 300ms;
-    box-shadow: 1px 3px 2px 2px rgba(0,0,0,.6);
-    background-color: orangered;
-    transform: translateY(-30px);
-}
-
-.orange-hover:hover{
-    transition: background-color 0.2s ease-in-out;
-    background-color: orangered;
-}
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+.cuisine-header{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.cta-form{
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
